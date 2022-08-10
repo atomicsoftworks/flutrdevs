@@ -1,0 +1,33 @@
+name: flutterdevs
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0-170.0.dev <3.0.0"
+
+dependencies:
+  antdesign_icons: ^0.0.3
+  auto_size_text: ^3.0.0
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  dynamic_color: ^1.4.0
+  faker: ^2.0.0
+  flutter:
+    sdk: flutter
+  go_router: ^3.1.1
+  google_fonts: ^3.0.1
+  provider: ^6.0.3
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
